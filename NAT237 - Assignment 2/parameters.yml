@@ -1,0 +1,54 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "ScalableWebSRVProject"
+	},
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": "cs4843Key"
+    },
+    {
+        "ParameterKey": "AMItoUse",
+        "ParameterValue": "ami-0ca05c6eaa4ac40e0"
+	},
+    {
+        "ParameterKey": "myVPC",
+        "ParameterValue": "vpc-06ee76b82032ca339"
+    },
+    {
+        "ParameterKey": "PublicSubnet",
+        "ParameterValue": "subnet-0af1cafaaaac89cf1"
+    },
+	{
+		"ParameterKey": "VpcCIDR",
+		"ParameterValue": "10.0.0.0/16"
+	},
+    {
+		"ParameterKey": "PublicSubnet1CIDR",
+		"ParameterValue": "10.0.0.0/24"
+	},
+	{
+		"ParameterKey": "PublicSubnet2CIDR",
+		"ParameterValue": "10.0.1.0/24"
+	},
+	{
+		"ParameterKey": "PrivateSubnet1CIDR",
+		"ParameterValue": "10.0.2.0/24"
+	},
+	{
+		"ParameterKey": "PrivateSubnet2CIDR",
+		"ParameterValue": "10.0.3.0/24"
+	}
+    {
+		"ParameterKey": "pDbName",
+		"ParameterValue": "MySQLdb"
+	},
+    {
+		"ParameterKey": "pDbUser",
+		"ParameterValue": "User"
+	},
+	{
+		"ParameterKey": "pDbPass",
+		"ParameterValue": "Pass"
+	}
+]
